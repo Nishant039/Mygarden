@@ -1,0 +1,596 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+    
+}
+body{
+    font-family: 'Roboto','Open Sans', sans-serif;
+    background-color:#edeff0; 
+}
+
+header{
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.2);
+    position: fixed;
+    z-index: 99;
+    width:100%;
+}
+
+header a{
+    padding:10px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+header nav li{
+    display: inline-block;
+}
+
+#logo{
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header nav a{
+    transition: background-color 0.4s;
+}
+
+
+header nav a:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+#intro{
+    min-height:500px;
+    background-image: url(../img/garden.jpg);
+    background-size:cover;
+/*    background-position: center;*/
+    background-attachment:fixed;
+    
+}
+
+#intro-text{
+    position: relative;
+    top:100px;
+    color: white;
+    text-align: center;
+
+}
+
+#intro-text h2{
+    
+    padding:15px;
+    background-color: rgba(0,0,0,0.3);
+/*    border-bottom: 2px solid white;*/
+}
+
+#intro-text h3{
+    padding:10px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+#intro-text .call-to-action{
+    
+    padding: 20px;
+}
+
+#intro-text .call-to-action a{
+    
+    background-color: #55C18F;
+    color:white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px 0px;
+    transition: box-shadow 0.4s;
+}
+
+#intro-text .call-to-action a:hover{
+    
+    box-shadow: 2px 2px 15px rgba(0,0,0,.2);
+}
+
+#welcome{
+    background-color: #55C18F;
+    color: white;
+    padding-bottom: 20px;
+    
+}
+
+#welcome h2{
+    text-align: center;
+    padding: 15px;
+
+    
+}
+
+#welcome p{
+
+    padding: 10px;
+    
+}
+
+.service-container{
+    
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.service{
+    margin: 20px 10px;
+/*    text-align: center;*/
+}
+
+.service h3{
+    
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    font-size: 1.3em;
+}
+
+.service p{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+.works-container{ 
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.work{
+    height: 250px;
+    position: relative;
+    margin: 20px 10px;
+    
+   
+}
+.work-title{
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 20px 0px;
+}
+ .work.one{
+    background-image: url(../img/s1.jpeg);
+    background-size: cover;
+
+}
+.work.two{
+    background-image: url(../img/s2.jpeg);
+    background-size: cover;
+}
+.work.three{
+    background-image: url(../img/s3.jpeg);
+    background-size: cover;
+}
+.work.four{
+    background-image: url(../img/s4.jpeg);
+    background-size: cover;
+
+}
+#blog{
+    
+    text-align: center;
+}
+
+#blog h2{
+    padding: 15px;
+    text-align: center;
+    margin: 10px auto;
+    
+} 
+
+#blog .call-to-action{
+    margin: 10px;
+
+    
+}
+
+#blog .call-to-action a{
+    text-decoration: none;
+    color: white;
+    background-color:#55C18F;
+    display: inline-block;
+    padding: 15px;
+    margin: 20px 0px 50px;
+    transition: box-shadow 0.4s;
+}
+
+#blog .call-to-action a:hover{
+     box-shadow: 2px 2px 15px rgba(0,0,0,.2);
+}
+
+.articles-container{
+    max-width: 700px;
+    margin: auto;
+}
+.article{
+    margin: 20px auto;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+.article .article-date{
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+    padding: 10px;
+    margin: auto;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.article h3{
+    margin: 20px 0px 10px 0px;
+    
+}
+
+.article-text{
+    padding: 20px 
+}
+
+.article-button{
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.article-button a{
+
+    text-decoration: none;
+    color: white;
+    background-color: #55C18F;
+    padding: 15px;
+    display: inline-block;
+    transition: box-shadow 0.4s;
+    margin: 10px;
+}
+
+.article-button a:hover{
+     box-shadow: 2px 2px 15px rgba(0,0,0,.2);
+}
+
+#testimonials{
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+#testimonials h2, #testimonials h3{
+    text-align: center;
+    padding: 15px;
+}
+
+#testimonials p{
+    text-align: center;
+    padding: 20px 0px;
+    margin: 10px auto;
+}
+
+#testimonials h5, #testimonials h6{
+    text-align: center;
+    padding: 5px 10px;
+}
+#testimonials img{
+    height: 150px;
+    width: 150px;
+    margin: 20px auto;
+    display: block;
+    border-radius:50%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer .services{
+    padding: 20px;
+    font-size: 1.1em;
+
+    
+}
+
+
+footer li{
+    margin:10px 10px 10px 0px;
+    list-style: none;
+    
+}
+
+footer a{
+    color: white;
+}
+
+.contact-info{
+    padding: 20px;
+}
+
+.contact-info p{
+    margin: 3px;
+}
+
+.contact-form{
+    padding: 20px;
+    
+}
+.contact-form input{
+    height: 35px;
+    display: inline-block;
+    width: 70%;
+    border: none;
+}
+
+.contact-form button{
+    background-color: #55C18F;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 25%;
+    max-width:200px;
+    border: none;
+    
+}
+.contact-form button:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:750px) and (max-width:1200px){
+    
+    header #logo{
+        display: inline-block;
+        width: 30%;
+        padding: 10px;
+    }
+    header nav{
+        display: inline-block;
+        width: 60%;
+    }
+    
+    #intro{
+        height: 600px;
+    }
+    #intro-text{
+
+    top:200px;
+/*    color: white;*/
+/*    text-align: center;*/
+
+}
+    #welcome p{
+        text-align: center;
+    }
+.service-container{
+        max-width: 500px;
+    }
+    
+.works-container .work{
+    
+        display: inline-block;
+        width: 45%;
+    } 
+.articles-container{
+    margin: auto;
+    max-width: 700px;
+        
+    }
+
+.article.a,.article.two{
+    float: left;
+    width: 45%;
+/*   margin-left:20px;    */
+    }
+    .article.one,.article.three{
+        float: right;
+        width: 45%;
+    }
+
+#testimonials,footer{
+    clear: both;
+        
+    }
+
+.testimonials-container{
+padding: 10px;
+max-width: 700px;
+margin: 20px auto;
+
+}
+.testimonial.one{
+    float: left;
+    width: 40%;
+        
+    }
+.testimonial.two{
+        float: right;
+        width: 40%;
+    }
+    
+    
+/*Clear-fix - Very Important (Solution to float items coming outside of the parent)    */
+    
+ #testimonials .testimonials-container::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+    footer .services{
+        display: inline-block;
+    }
+    footer .contact-info{
+        display: inline-block;
+    }
+    
+}
+
+
+
+
+/*For laptop Screen Size*/
+
+
+
+
+
+@media screen and (min-width:1200px){
+    
+    header{
+        text-align: center;
+        padding: 10px;
+        font-size: 1.2em;
+    }
+     header #logo{
+        display: inline-block;
+        width: 30%;
+        padding: 10px;
+    }
+    header nav{
+        display: inline-block;
+        width: 60%;
+        text-align: left;
+    }
+    header li{
+        font-size: 1.2em;
+    }
+    
+    #intro{
+        height: 870px;
+    }
+    #intro-text{
+
+    top:50%;
+/*    color: white;*/
+/*    text-align: center;*/
+
+}
+#intro-text h2, #intro-text h3{
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px 100px;
+    font-size: 1.5em;    
+}
+#intro-text h2
+    {
+        font-size: 1.8em;
+    }
+    #intro .call-to-action{
+        
+            padding:20px;
+    }
+
+#intro .call-to-action a{
+            
+padding: 20px 200px;
+    }
+#welcome{
+    padding-top: 20px;
+        font-size: 1.4em;
+    padding-bottom: 30px;
+    }
+#welcome p{
+        text-align: center;
+    padding: 80px;
+    }
+.service-container{
+        max-width: 700px;
+    }
+.works-container{
+    max-width: 1000px;
+     margin: 30px auto;   
+    }
+.works-container .work{
+    
+        display: inline-block;
+        width: 45%;
+    } 
+    #blog{
+        font-size: 1.3em;
+    }
+.articles-container{
+    margin: auto;
+    max-width: 1000px;
+        
+    }
+
+.article.a,.article.two{
+    float: left;
+    width: 45%;
+/*   margin-left:20px;    */
+    }
+    .article.one,.article.three{
+        float: right;
+        width: 45%;
+    }
+ .articles-container{
+        
+    margin-bottom: 20px;
+    }
+    
+#testimonials,footer{
+    clear: both;
+    font-size: 1.3em;
+        
+    }
+
+.testimonials-container{
+padding: 10px;
+max-width: 1000px;
+margin: 20px auto;
+
+}
+.testimonial.one{
+    float: left;
+    width: 40%;
+        
+    }
+.testimonial.two{
+        float: right;
+        width: 40%;
+    }
+    
+    
+/*Clear-fix - Very Important (Solution to float items coming outside of the parent)    */
+    
+ #testimonials .testimonials-container::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+    footer .services{
+        display: inline-block;
+    }
+    footer .contact-info{
+        display: inline-block;
+    }
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,378 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Roboto','Open Sans', sans-serif;
+    background-color: white;
+}
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    font-size: 1.2em;
+    z-index: 99;
+}
+
+#logo{
+    padding: 5px;
+}
+header li{
+    display: inline-block;
+    padding: 10px 0px;
+    
+}
+header a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    transition: background-color 0.4s;
+    display: inline-block;
+}
+header a:hover{
+    background-color: #fbf9ff;
+}
+
+
+
+#intro{
+    min-height: 400px;
+    background-image: url(../img/garden.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.intro-text{
+    position: relative;
+    top: 200px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#welcome{
+    background-color: #fbf9ff;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+#welcome h2{
+    text-align: center;
+    padding: 20px 0px;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+#welcome .welcome-article-container{
+    margin:30px auto;
+    max-width: 900px;
+}
+#welcome .welcome-article{
+    margin: 30px auto;
+}
+
+#welcome p{
+    padding: 10px;
+    margin: 20px 10px auto;
+}
+
+#welcome .call-to-action, #company-history .call-to-action,#faq .call-to-action{
+    text-align: center;
+}
+#welcome a,#company-history a,#faq a{
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: #55c18f;
+    text-decoration: none;
+    color: white;
+    transition: box-shadow 0.4s;
+}
+
+#welcome a:hover,#company-history a:hover,#faq a:hover{
+    box-shadow: box-shadow: 2px 2px 15px rgba(0,0,0,.2);
+}
+
+#company-history h2{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    max-width: 800px;
+    margin: auto;
+}
+
+.history-article-container{
+    margin: 30px auto;
+    max-width: 800px;
+}
+.history-article h3{
+    padding: 10px 0px;
+    color: #55c18f;
+    font-style: italic;
+}
+.history-article p{
+    margin: 20px 0px;
+}
+.opener{
+    color: #55c18f;
+}
+.history-article-container{
+    padding-bottom: 10px;
+    padding: 0px 10px;
+}
+
+#company-history{
+    margin-bottom: 20px;
+}
+#our-team{
+    background-color:#fbf9ff;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+#our-team h2{
+    text-align: center;
+    padding: 30px;
+}
+
+.team-container{
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+.team-image{
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 15px rgba(0,0,0,.2);
+    
+}
+.team-image img{
+
+    border-radius: 50%;
+    height: 40%;
+    width: 40%;
+    margin: 10px;
+    
+}
+#faq{
+    
+    padding-bottom: 20px ;
+}
+
+#faq h2{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    max-width: 800px;
+    
+    margin: auto;
+}
+
+.faq-container{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0px 10px;
+}
+.faq-container h3{ margin: 20px auto;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer .services{
+    padding: 20px;
+    font-size: 1.1em;
+
+    
+}
+
+
+footer li{
+    margin:10px 10px 10px 0px;
+    list-style: none;
+    
+}
+
+footer a{
+    color: white;
+}
+
+.contact-info{
+    padding: 20px;
+}
+
+.contact-info p{
+    margin: 3px;
+}
+
+.contact-form{
+    padding: 20px;
+    
+}
+.contact-form input{
+    height: 35px;
+    display: inline-block;
+    width: 70%;
+    border: none;
+}
+
+.contact-form button{
+    background-color: #55C18F;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 25%;
+    max-width:200px;
+    border: none;
+    margin-left: 10px;
+    
+}
+.contact-form button:hover{
+    cursor: pointer;
+}
+
+.copyright{
+ text-align: center;
+}
+
+
+@media screen and (min-width:1000px){
+    *{
+        font-size: 1.03em;
+    }
+    header{
+        height: 80px;
+        padding-top: 10px;
+    }
+header #logo{
+        display: inline-block;
+        width: 30%;
+        padding: 10px;
+    text-align: right;
+    }
+    header nav{
+        display: inline-block;
+        width: 60%;
+    }
+    header nav{
+     text-align: center;
+    }
+    #intro{
+        min-height: 600px;
+    } 
+    .intro-text{
+        padding:30px;
+        top: 300px;
+        font-size: 2em;
+    }
+    
+    #welcome{
+        font-size: 1.2em;
+    } 
+#welcome h2,#welcome .welcome-article-container{
+        max-width: 1000px;
+    }
+    
+    #company-history{
+        font-size: 1.2em;
+    }
+
+.history-article.one,.history-article.three{
+
+    float: left;
+    width: 40%;
+    
+    }   
+    #company-history h2, .history-article-container{
+        max-width: 1200px;
+    }
+.history-article.two,.history-article.four{
+
+    float: right;
+    width: 40%;
+    
+    }      
+    .call-to-action{
+        clear: both;
+    }  
+#company-history .history-article-container,#our-team .team-container::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+    #our-team{
+        min-height: 800px;
+    }
+    #our-team .team-container{
+        margin: auto;
+    max-width: 1200px;
+     
+    }
+    #our-team h2{
+        font-size: 1.2em;
+       
+    }
+    #our-team .team-image.one,#our-team .team-image.three{
+        float: right;
+        width: 40%;
+  
+    }
+        #our-team .team-image.two,#our-team .team-image.four{
+        float: left;
+        width: 40%;
+
+    }
+    #our-team .team-image{
+        min-height: 350px;
+        
+    }
+    #our-team .team-image h4,#our-team .team-image h3{
+        
+     margin: 20px;
+    }
+    #faq{
+        min-height: 800px;
+        font-size: 1.2em;
+    }
+    #faq .faq-container{
+        max-width: 1000px;
+    }
+.faq-container .faq.one,.faq-container .faq.three{
+    
+    float: left;
+    width: 45%;
+    
+    }
+.faq-container .faq.two,.faq-container .faq.four{
+    
+    float: right;
+    width: 45%;
+    
+    }
+#faq .faq-container::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+        footer .services{
+        display: inline-block;
+    }
+    footer .contact-info{
+        display: inline-block;
+    }
+    
+}
+
+h2{
+    font-size: 1.4em;
+}
+
+}
