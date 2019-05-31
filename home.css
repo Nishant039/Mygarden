@@ -45,7 +45,7 @@ header nav a:hover{
 
 #intro{
     min-height:500px;
-    background-image: url(../img/garden.jpg);
+    background-image: url(garden.jpg);
     background-size:cover;
 /*    background-position: center;*/
     background-attachment:fixed;
@@ -161,20 +161,20 @@ header nav a:hover{
     padding: 20px 0px;
 }
  .work.one{
-    background-image: url(../img/s1.jpeg);
+    background-image: url(s1.jpeg);
     background-size: cover;
 
 }
 .work.two{
-    background-image: url(../img/s2.jpeg);
+    background-image: url(s2.jpeg);
     background-size: cover;
 }
 .work.three{
-    background-image: url(../img/s3.jpeg);
+    background-image: url(s3.jpeg);
     background-size: cover;
 }
 .work.four{
-    background-image: url(../img/s4.jpeg);
+    background-image: url(s4.jpeg);
     background-size: cover;
 
 }

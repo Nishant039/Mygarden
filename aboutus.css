@@ -41,7 +41,7 @@ header a:hover{
 
 #intro{
     min-height: 400px;
-    background-image: url(../img/garden.jpg);
+    background-image: url(garden.jpg);
     background-attachment: fixed;
     background-size: cover;
     margin-bottom: 15px;
