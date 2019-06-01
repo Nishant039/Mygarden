@@ -27,11 +27,15 @@ header a{
 header nav li{
     display: inline-block;
 }
+header .active{
+    background-color: rgba(0,0,0,0.2);
+}
 
 #logo{
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
 }
+
 
 header nav a{
     transition: background-color 0.4s;

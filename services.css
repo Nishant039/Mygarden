@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto','Open Sans', sans-serif;
+    background-color: white;
+}
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    font-size: 1.2em;
+    z-index: 99;
+
+}
+
+#logo{
+    padding: 5px;
+}
+header li{
+    display: inline-block;
+    padding: 10px 0px;
+    
+}
+header a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    transition: background-color 0.4s;
+    display: inline-block;
+}
+header a:hover{
+    background-color: #a2a3bb;
+}
+
+header .active{
+    background-color: rgba(0,0,0,0.2);
+}
+
+#intro{
+    min-height: 400px;
+    background-image: url(garden.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.intro-text{
+    position: relative;
+    top: 200px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 1.4em;
+}
+
+#services{
+    background-color: #55c18f;
+    color: white;
+    text-align: center;
+    min-height: 500px;
+    font-size: 1.3em;
+    padding-bottom: 20px;
+
+}
+
+#services h2{
+    padding: 40px 0px;
+
+}
+.services-conatiner{
+    max-width: 800px;
+    margin: auto;
+}
+
+.service{
+    margin: 20px 20px;
+    padding: 20px;
+}
+.service h3{
+    padding: 20px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+.service p{
+    padding: 0px 20px;
+}
+
+.service.one{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.6)),url(s1.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0,0,0,1);
+}
+
+.service.two{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.6)),url(s2.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0,0,0,1);
+}
+.service.three{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.6)),url(s3.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0,0,0,1);
+}
+
+.call-to-action{
+    margin: 30px;
+    background-color: #55c18f;
+    padding: 20px;
+    border-radius: 0px 50px;
+    
+}
+.call-to-action a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer .services{
+    padding: 20px;
+    font-size: 1.1em;
+
+    
+}
+
+
+footer li{
+    margin:10px 10px 10px 0px;
+    list-style: none;
+    
+}
+
+footer a{
+    color: white;
+}
+
+.contact-info{
+    padding: 20px;
+}
+
+.contact-info p{
+    margin: 3px;
+}
+
+.contact-form{
+    padding: 20px;
+    
+}
+.contact-form input{
+    height: 35px;
+    display: inline-block;
+    width: 70%;
+    border: none;
+}
+
+.contact-form button{
+    background-color: #55C18F;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 25%;
+    max-width:200px;
+    border: none;
+    margin-left: 10px;
+    
+}
+.contact-form button:hover{
+    cursor: pointer;
+}
+
+.copyright{
+ text-align: center;
+}
+
+@media screen and (min-width:1000px){
+    *{
+        font-size: 1.03em;
+    }
+    header{
+        height: 80px;
+        padding-top: 10px;
+    }
+header #logo{
+        display: inline-block;
+        width: 30%;
+        padding: 10px;
+    text-align: right;
+    }
+    header nav{
+        display: inline-block;
+        width: 60%;
+    }
+    header nav{
+     text-align: center;
+    }
+    header a{
+        padding: 10px;
+    }
+    #intro{
+        min-height: 600px;
+    } 
+    .intro-text{
+        padding:30px;
+        top: 300px;
+        font-size: 2em;
+    }
+ #services{
+padding-bottom: 80px;
+        
+    }
+.services-container{
+        
+    max-width: 1000px;
+    margin: auto;
+    font-size: 1em;
+    position: relative;
+    
+    }
+    #services h2{
+        font-size: 1.3em;
+    }
+    .service{
+        margin-left: 0px;
+    }
+    .service.one{
+        width: 100%;
+    }
+    .service.two{
+        float:left;
+        width: 45%;
+         
+        
+    }
+    .service.three {
+        text-align: center;
+        float: right;
+        width: 45%;
+        margin-right: 0px;
+    }
+.service.two .call-to-action{
+        margin-top: 33px; 
+        
+    }
+
+    
+.services-container::after{
+          content: '';
+  clear: both;
+  display: block;
+    }
+}
+
+
